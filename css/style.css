@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+
+display: flex;
+
+flex-wrap: nowrap;
+
+width: 1179px;
+
+margin: auto;
+
+justify-content: center;
+
+align-items: center;
+}
+.logo img{
+
+padding: 40px;
+
+flex-basis: 20%;
+}
+nav{
+
+flex-basis: 80%;
+}
+nav ul{
+
+list-style: none;
+display: flex;
+justify-content: end;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px 36px;
+	color: #000;}
+/*header end*/
+.banner{
+	width: 1062px;
+    margin: auto;
+}
+/*banner end*/
+
+section{ 
+width: 940px;    
+margin: auto;
+padding: 40px 0px;
+}
+section .about-title{
+color: #b4ad9e;
+
+font-size: 25px;
+}
+section .about-head {
+    color: #626262;
+    font-size: 30px;
+}
+section .about-p {
+    color: #626262;
+    font-size: 20px;
+}
+section .about-end{
+	color: #b4ad9e;
+padding-top: 20px;
+font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+/*about-end*/
+section .gallery{
+    display: flex;
+	flex-wrap: nowrap;
+	    justify-content: space-between;
+}
+section .gallery .img1{
+flex-basis: 45%;
+}
+section .gallery .img1 img{
+	  width: 100%;
+    display: block;
+}
+section .gallery .img1 a{
+	text-decoration: none;
+	color: #b4ad9e;
+    font-size: 15px;
+    padding: 15px 0px;
+    display: block;
+}
+section .gallery .img1 h2{
+	   color: #626262;
+    font-size: 30px;   
+    line-height: 0px;
+}
+section .gallery .img1 p{
+	   color: #626262;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	padding: 40px 0px;
+}
+.btn a{
+	padding: 15px 30px;
+	border: 1px solid #000;
+	font-size: 20px;
+	border-radius: 8px;
+	color: #000;
+}
+input{
+	border: none;
+	border-bottom: 2px solid #000;
+	font-size: 16px;
+	background: 	#f0f0f0;
+}
+input:focus{
+	border:none;
+}
+
+.news{
+	text-align: center;
+	background: #f0f0f0;
+	padding: 40px;
+}
+h1{
+	padding-bottom:30px;
+	font-size: 40px;
+}
+footer{
+	background: #d1cdcd;
+	max-width: 1350px;
+}
+.terms{
+		
+	display: flex;
+	
+	flex-wrap:wrap;
+	padding: 30px 50px;
+	
+	
+}
+.term {
+flex-basis: 50%;
+
+
+}
+.Sign{
+flex-basis: 50%;
+    text-align: end;
+}
+.term ul{
+	list-style: none;
+    display: flex;
+    
+	
+}
+.term ul li a{
+	color: #000;	
+	padding-right: 20px;
+}
+.term ul li{
+	
+}
